@@ -1,14 +1,10 @@
-# <div style="display: flex; align-items: center; justify-content: space-between">spotify-playlist-cloner [<img src="Spotify_Logo_RGB_Green.png" style="max-height: 100px; min-width: 70px">](Spotify_Logo_RGB_Green.png)</div>
-
----
+# spotify-playlist-cloner
 
 ## Features
 
 - **clone / fork any Spotify playlist**
 - **automatically update your cloned / forked playlists**
 - **add one playlist to another**
-
----
 
 ## Getting Started
 
@@ -32,13 +28,11 @@ client_secret = "1za02ax1juv6woqn33ybgn4yxf3demt5"
 **Step 5**  
 Enjoy!
 
----
-
 ## Bundle it [ with pyinstaller ]
 
 **Step 0**  
 You need to have `pyinstaller` installed for this to work  
-Check if you have done everything from the [Getting Started](#Getting-Started) Section
+Check if you have done everything from the [Getting Started](#getting-started) Section
 
 **Step 1**  
 run `pyinstaller -F src/SpotifyPlaylistCloner.py` from your project directory  
