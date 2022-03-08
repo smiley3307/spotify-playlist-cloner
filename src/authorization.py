@@ -66,7 +66,6 @@ def get_access():
         }
 
         res = requests.post(token_url, headers=headers, data=token_data).json()
-        print(res)
         return res["access_token"], res["refresh_token"], dt.datetime.now() + dt.timedelta(seconds=res["expires_in"])
 
     get_access_code()
